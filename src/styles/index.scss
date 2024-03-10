@@ -1,0 +1,26 @@
+@import 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $col-font;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    font-family: $font;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    overflow: hidden;
+    background-color: $col-bg;
+}
+
+main {
+    padding: $gap-s;
+    height: 101vh;
+    overflow: scroll;
+}
